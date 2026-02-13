@@ -1,10 +1,12 @@
-const idade = 19;
+const idade = 15;
 
-if (idade >= 18) {
-  console.log("É maior de idade!");
-} else {
-  console.log("É menor de idade!");
-}
+// if (idade >= 18) {
+//   console.log("É maior de idade!");
+// } else {
+//   console.log("É menor de idade!");
+// }
+
+idade >=18 ? console.log('Maior de idade') : console.log('Menor de idade')
 
 // if (idade < 18) {
 //   console.log("É menor de idade");
@@ -17,12 +19,17 @@ if (idade >= 18) {
 
 const notaDoAluno = 1;
 
-if (notaDoAluno >= 9) {
-  console.log("Nota Excelente!");
-} else if (notaDoAluno >= 7) {
-  console.log("Nota Boa!");
-} else if (notaDoAluno >= 4) {
-  console.log("Nota Média!");
-} else {
-  console.log("Nota Ruim!");
-}
+// if (notaDoAluno >= 9) {
+//   console.log("Nota Excelente!");
+// } else if (notaDoAluno >= 7) {
+//   console.log("Nota Boa!");
+// } else if (notaDoAluno >= 4) {
+//   console.log("Nota Média!");
+// } else {
+//   console.log("Nota Ruim!");
+// }
+
+notaDoAluno >=9 ? console.log("Nota Excelente!") : 
+    notaDoAluno >=7 ? console.log("Nota Boa!") :
+        notaDoAluno >=4 ? console.log("Nota Média!") :
+            console.log("Nota Excelente!");
