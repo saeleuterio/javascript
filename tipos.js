@@ -1,24 +1,24 @@
-let nome = 'Saulo'
-let idade = 49
-let altura = 1.78
+let nome = "Saulo";
+let idade = 49;
+let altura = 1.78;
 
-console.log(typeof nome)
-console.log(typeof idade)
-console.log(typeof altura)
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof altura);
 
-let estaChovendo = true // false ou true
+let estaChovendo = true; // false ou true
 
 console.log(typeof estaChovendo);
 
-let cidade
+let cidade;
 
 console.log(typeof cidade);
 
-let aprendeuJS = null
+let aprendeuJS = null;
 
 console.log(typeof aprendeuJS);
 
-let simbolo = Symbol()
+let simbolo = Symbol();
 
 console.log(typeof simbolo);
 

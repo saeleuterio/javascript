@@ -1,39 +1,37 @@
-const numeroUm = 4
-const numeroDois = 8
+const numeroUm = 4;
+const numeroDois = 8;
 
-const subtracao = numeroUm - numeroDois
-console.log('Subtração: ', subtracao)
+const subtracao = numeroUm - numeroDois;
+console.log("Subtração: ", subtracao);
 
-const soma = numeroUm + numeroDois
-console.log('Soma: ', soma)
+const soma = numeroUm + numeroDois;
+console.log("Soma: ", soma);
 
-const divisao = numeroUm / numeroDois
-console.log('Divisão: ', divisao)
+const divisao = numeroUm / numeroDois;
+console.log("Divisão: ", divisao);
 
-const multiplicacao = numeroUm * numeroDois
-console.log('Multiplicação: ', multiplicacao)
+const multiplicacao = numeroUm * numeroDois;
+console.log("Multiplicação: ", multiplicacao);
 
-const contaComplexa = (numeroUm + numeroDois) * numeroUm
+const contaComplexa = (numeroUm + numeroDois) * numeroUm;
 console.log("Conta Complexa: ", contaComplexa);
 
-const resto = 13 % 2
+const resto = 13 % 2;
 console.log("Resto da divisão: ", resto);
 
-const potencia = 2 ** 3
+const potencia = 2 ** 3;
 console.log("Potência: ", potencia);
 
-let contador = 5
+let contador = 5;
 // contador = contador + 1
-contador++
+contador++;
 console.log("Incremento: ", contador);
 
 // contador = contador - 1
-contador--
+contador--;
 console.log("Decremento: ", contador);
 
-let numeroTres = 2
+let numeroTres = 2;
 
 numeroTres = numeroTres * 2;
 console.log(numeroTres);
-
-
