@@ -5,9 +5,9 @@ while(contador <= 10) {
     contador++
 }
 
-let numero = 1
+// let numero = 1
 
-do {
-    console.log('Número:', numero)
-    numero++
-} while (numero <= 10)
+// do {
+//     console.log('Número:', numero)
+//     numero++
+// } while (numero <= 10)
