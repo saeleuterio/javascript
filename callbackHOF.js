@@ -13,7 +13,7 @@ function divisao(num1, num2) {
 }
 
 const resultadoSoma = calcular(3, 8, soma); // Soma é um callback
-console.log('Resultado da soma:', resultadoSoma);
+console.log("Resultado da soma:", resultadoSoma);
 
 const resultadoDivisao = calcular(32, 8, divisao); // Divisão é um callback
-console.log('Resultado da divisão:', resultadoDivisao);
+console.log("Resultado da divisão:", resultadoDivisao);

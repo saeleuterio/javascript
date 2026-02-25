@@ -6,7 +6,7 @@
 //     console.log('Vida longa e próspera,', nome)
 // }
 
-const saudacao = nome => console.log('Olá,', nome)
+const saudacao = (nome) => console.log("Olá,", nome);
 
 saudacao("Saulo"); // Saulo é o "argumento"
 saudacao("Kelly");
@@ -20,7 +20,7 @@ saudacao("Giulia");
 //     return numero * 2
 // }
 
-const calcularDobroDeUm = numero => numero * 2
+const calcularDobroDeUm = (numero) => numero * 2;
 
 const numeroDobrado = calcularDobroDeUm(4);
 console.log("O dobro de 4 é:", numeroDobrado);
